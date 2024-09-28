@@ -4,12 +4,6 @@ function showSection(section) {
         sec.style.display = 'none'; // Hide all sections
     });
     document.getElementById(section).style.display = 'block'; // Show the selected section
-
-    if (section === 'home') {
-        const resultsContainer = document.querySelector('.search-results');
-        resultsContainer.innerHTML = ''; // Clear results when switching to home
-        resultsContainer.style.display = 'none'; // Hide results container
-    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -129,6 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const data = await fetchData();
         const results = searchKeywords(data, keyword);
+        showSection('home');
         displayResults(results);
     });
 
