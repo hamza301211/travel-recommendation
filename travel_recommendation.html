@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <section class="logo">
+            <img class="logo-img" src="https://png.pngtree.com/element_our/png/20180918/travel-logo.-travel-agency-adventure-creative-sign.-png_104367.jpg" alt="logo" />
+            <h1 class="logo-title">TravelBloom</h1>
+        </section>
+
+        <section class="center">
+            <ul class="navs">
+                <a class="anchors" href="#home" onclick="showSection('home')">Home</a>
+                <a class="anchors" href="#about" onclick="showSection('about')">About Us</a>
+                <a class="anchors" href="#contact" onclick="showSection('contact')">Contact Us</a>        
+            </ul>
+        </section>
+
+        <section class="search-bar">
+            <input placeholder="Enter a destination" class="search-input" type="text" />
+            <button class="search-button">Search</button>
+            <button class="clear-button">Clear</button>
+        </section>
+    </div>
+
+    <div id="home" class="section">
+        <h1 class="heading-home">EXPLORE <br/> DREAM <br/> DESTINATION</h1>
+        <p class="para-home">Lorem, ipsum dolor sit amet<br/> consectetur adipisicing elit. Ut<br/> inventore ducimus praesentium necessitatibus<br/> at, quam consequuntur aut quod<br/> corporis deserunt. Culpa, <br/>reprehenderit illum.</p>
+        <button>BOOK NOW</button>
+    </div>
+
+    <div id="about" class="section" style="display: none;">
+        <h1 class="heading-home">About Us</h1>
+        <div class="about-us">
+        <p class="para-home">At TravelBloom, we believe that every journey begins with a dream. Our mission is to turn those dreams into unforgettable experiences. With a dedicated team of travel experts, we curate personalized itineraries to cater to your unique travel desires.</p>
+        <p class="para-home">Whether you're seeking adventure, relaxation, or cultural exploration, we are here to help you discover the world. Our commitment to exceptional service ensures that your travel experience is seamless and enjoyable from start to finish.</p>
+        <p class="para-home">Join us as we explore breathtaking destinations and create memories that last a lifetime!</p>
+        </div>
+        <div class="our-team">
+            <h1 class="heading-home">OUR TEAM</h1>
+            <div class="card">
+                <img class="card-img" src="https://png.pngtree.com/element_pic/16/11/03/59e51eb2563ac32c93b1e64bdcf2a4f9.jpg" alt="logo"/>
+                <h2>John Doe</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>CEO</button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://png.pngtree.com/element_pic/16/11/03/59e51eb2563ac32c93b1e64bdcf2a4f9.jpg" alt="logo"/>
+                <h2>John Doe</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>CEO</button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://png.pngtree.com/element_pic/16/11/03/59e51eb2563ac32c93b1e64bdcf2a4f9.jpg" alt="logo"/>
+                <h2>John Doe</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>CEO</button>
+            </div>
+        </div>   
+    </div>
+</body>
+<script src="travel_recommendation.js"></script>
+</html>

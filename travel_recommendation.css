@@ -1,0 +1,140 @@
+body {
+    margin: 0; /* Remove default margin */
+    background-image: url('https://images.ctfassets.net/rc3dlxapnu6k/1v59ruP2uWSfedcRYeyYEM/a90a3f12ce5ed64163458e0c2f228378/USA__beste_Reisezeit.jpg?w=2121&h=1413&fl=progressive&q=50&fm=jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the body takes full height of the viewport */
+}
+
+.nav-bar {
+    display:flex;
+    justify-content: space-between;
+    background-color: #2b3333;
+}
+
+.logo {
+    /* position: absolute; Allow the logo to overlap */
+    left: 20px; /* Position from the left */
+    top: 10px; /* Position from the top */
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logo-img {
+    height: 50px; /* Set logo image height */
+    margin-right: 10px; /* Space between logo image and title */
+}
+
+.center {
+    margin-left: 100px; /* Leave space for the logo */
+}
+
+.navs {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display navigation items in a row */
+    padding: 0; /* Remove default padding */
+}
+
+.anchors {
+    color: white; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add padding for spacing */
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+.anchors:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+}
+
+.search-button,
+.clear-button {
+    margin-left: 8px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #017579;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button:hover,
+.clear-button:hover {
+    background-color: black;
+}
+
+
+.logo-title{
+    color:white;
+}
+
+#home {
+    position: absolute; /* Position the home section absolutely */
+    left: 20px; /* Space from the left edge */
+    top: 100px; /* Space from the top edge */
+    color: white; /* Text color for visibility */
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for contrast */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.heading-home {
+    font-size: 4.5em; /* Adjust font size */
+    margin-bottom: 10px; /* Space below heading */
+    color:white;
+}
+
+.para-home {
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+button {
+    padding: 10px 15px; /* Add padding to the button */
+    background-color: #017579; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: black; /* Darker shade on hover */
+}
+
+.about{
+    padding:20px
+}
+
+.about-us{
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for contrast */
+    border-radius: 8px;
+    color: white;
+}   
+
+.our-team{
+    display:flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for contrast */
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card-img{
+    width: 30px;
+    height: 30px;
+}
