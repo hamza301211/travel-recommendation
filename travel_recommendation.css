@@ -138,3 +138,34 @@ button:hover {
     width: 30px;
     height: 30px;
 }
+
+
+.contact_form{
+    max-width: auto;
+    min-width:100vw;
+    padding: 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: left;
+}
+
+.input_field{
+    margin-bottom: 2rem;
+}
+
+.label{
+    font-size: 1.5rem;
+    display: block;
+    text-transform: capitalize;
+    color:white;
+}
+
+.contact_form input, .contact_form textarea{
+    display: block;
+    border: none;
+    width: 100%;
+    margin-top: .5rem;
+    padding: .8rem 1rem;
+    border-radius: .3rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
